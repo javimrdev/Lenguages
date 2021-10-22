@@ -1,3 +1,5 @@
+import { values } from "./values.js";
+
 const eso2o = {
     David: 8.25,
     Maria: 9.5,
@@ -5,7 +7,7 @@ const eso2o = {
     Juan: 5.5,
     Blanca: 7.75,
     Carmen: 8,
-  };
+};
 
 function getCalification(val) {
     if (val === 10)

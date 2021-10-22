@@ -2,7 +2,7 @@ function Person(name) {
     this.name = name;
 }
 
-Person.prototype.walk = function () {
+Person.prototype.walk = function() {
     console.log("I'm walking");
 };
 
@@ -20,3 +20,4 @@ const values = (obj) => {
 
 console.log(values(john));
 console.log(values({ id: 31, duration: 310, name: "long video", format: "mp4" })); // [31, 310, "long video", "mp4"]
+export { values }
