@@ -1,17 +1,25 @@
 function showPrimes(from, to) {
     for (var i = from; i <= to; i++) {
-        let isPrime = true;
-        let msg = '';
-        for (var x = 2; x < i && isPrime; x++) {
-            isPrime = i % x === 0 ? false : true;
-        }
+        let itIs;
 
-        if (isPrime) { 
-            console.log(`${i} es numero primo!`);  
-        }else{
-            console.log(`${i} no es numero primo!`); 
+        itIs = isPrime(i);
+
+        if (itIs) {
+            console.log(`${i} es numero primo!`);
+        } else {
+            console.log(`${i} no es numero primo!`);
         }
     }
 }
 
-showPrimes(1, 10);
+function isPrime(num) {
+    let itIs = true;
+
+    for (var x = 2; x < num && itIs; x++) {
+        itIs = num % x === 0 ? false : true;
+    }
+
+    return itIs;
+}
+
+showPrimes(1, 102);
