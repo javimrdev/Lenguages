@@ -27,4 +27,4 @@ function merge(source, target) {
 var a = { name: "Maria", surname: "Ibañez", country: "SPA" };
 var b = { name: "Luisa", age: 31, married: true };
 
-//console.log(merge(a, b));
+console.log(merge(a, b));

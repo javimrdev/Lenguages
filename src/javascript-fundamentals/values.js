@@ -20,4 +20,5 @@ const values = (obj) => {
 
 console.log(values(john));
 console.log(values({ id: 31, duration: 310, name: "long video", format: "mp4" })); // [31, 310, "long video", "mp4"]
+
 export { values }
