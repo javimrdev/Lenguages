@@ -1,0 +1,13 @@
+import "/scripts/biggestWord.js";
+import "/scripts/califications.js";
+import "/scripts/checkArguments.js";
+import "/scripts/cloneMerge.js";
+import "/scripts/deepEqual.js";
+import "/scripts/dices.js";
+import "/scripts/hoisting.js";
+import "/scripts/includes.js";
+import "/scripts/primes.js";
+import "/scripts/readBook.js";
+import "/scripts/reverseText.js";
+import "/scripts/values.js";
+import "/scripts/zzcrypt.js";

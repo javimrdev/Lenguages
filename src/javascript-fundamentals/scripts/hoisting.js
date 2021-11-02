@@ -37,15 +37,15 @@ var a = 1;
 
 console.log(a);
 console.log(b);
-console.log(c);
+//console.log(c);
 
 ///////// equivalent /////////
-/* imprime undefined, 1, 4 y undefined. Primero undefined porque 'a'
+/* imprime undefined, 1, 4 y castañazo. Primero undefined porque 'a'
 dentro de la funcion esta declarada despues del console.log y 
 el segundo console log de 'a' seria 1 que es el valor global,
 'b' 4 porque ya se declara en la function pero como esta declarada
-de manera global, el valor se asigna de forma global. Y 'c' es undefined
-porque aplica el closure dentro de la funcion
+de manera global, el valor se asigna de forma global. Y 'c' peta
+porque esta definida dentro de la funcion
  */
 var a = 1, b;
 
@@ -69,10 +69,10 @@ function f() {
 
 console.log(a);
 console.log(b);
-console.log(c);
+//console.log(c);
 
 ///////// equivalent /////////
-/* imprime 1, 1, 4 y undefined, porque 'c' esta dentro de la funcion y aplica el closure */
+/* imprime 1, 1, 4 y peta, porque 'c' esta dentro de la funcion y no se le conoce fuera */
 f();
 var a = 1, b;
 
