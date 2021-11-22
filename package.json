@@ -12,6 +12,7 @@
     "values.js": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "typescript": "^4.4.4"
   }
 }
