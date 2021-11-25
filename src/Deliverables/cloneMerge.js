@@ -14,7 +14,7 @@ var objectTest = {
     hobbies: ['motos', 'basket', 'futbol', 'naturaleza'],
     cumpleaños: function() { this.edad++ }
 }
-console.log(clone(objectTest));
+console.log('Clone:', clone(objectTest));
 
 function merge(source, target) {
     let clonedObj = clone(target);
@@ -27,4 +27,4 @@ function merge(source, target) {
 var a = { name: "Maria", surname: "Ibañez", country: "SPA" };
 var b = { name: "Luisa", age: 31, married: true };
 
-console.log(merge(a, b));
+console.log('Merge:', merge(a, b));

@@ -19,6 +19,6 @@ var books: Book[] = [
     new Book("Devastación", true ),
 ];
 
-console.log(isBookRead(books, "Devastación")); // true
-console.log(isBookRead(books, "Canción de hielo y fuego")); // false
-console.log(isBookRead(books, "Los Pilares de la Tierra")); // false
+console.log('isBookRead:', isBookRead(books, "Devastación")); // true
+console.log('isBookRead:', isBookRead(books, "Canción de hielo y fuego")); // false
+console.log('isBookRead:', isBookRead(books, "Los Pilares de la Tierra")); // false

@@ -5,4 +5,4 @@ const tail = (arr) => {
 
 const elements = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log(tail(elements));
+console.log('Tail:', tail(elements));
